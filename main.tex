@@ -1,0 +1,430 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{geometry}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+\begin{center}
+    \textbf{\Large Benjamin 2. Walker} \\ \vspace{5pt}
+    %Make One Line, make dashes into dots
+    Richardson, TX 75080
+    \hspace{1 pt} $\cdot$ \hspace{1 pt}
+    \href{mailto:Ben.Walker2@utdallas.edu}{{Ben.Walker2@utdallas.edu}} 
+    \hspace{1 pt} $\cdot$ \hspace{1 pt}
+    (985) 264-1836
+    \hspace{1 pt} $\cdot$ \hspace{1 pt}
+    \href{https://www.linkedin.com/in/benjaminwwalker/}{{linkedin.com/in/benjaminwwalker}}
+    \vspace{-10pt}
+    %\href{https://benjamin-walker.com}{{benjamin-walker.com}}
+\end{center}
+
+\vspace{-10pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Texas at Dallas}{May 2023}
+      {B.S. in Physics and B.S. Electrical Engineering, Minor in Nanotechnology}{GPA: 3.92}
+    \resumeSubheading
+      {Northwestern State University}{May 2019}
+      {Associate's of General Studies}{GPA: 3.85}
+    \resumeSubheading
+    {Louisiana School for Math, Science, and the Arts \normalfont(LSMSA)}{May 2019}
+    {High School Diploma}{GPA: 3.93}
+  \resumeSubHeadingListEnd
+\section{Fellowships}
+\resumeSubHeadingListStart
+      
+    \resumeSubheading
+      {Barry Goldwater Scholarship}{March 2022}
+      {}{}
+      \vspace{-18px}
+      \resumeItemListStart
+        \resumeItem{Most prestigious award for an undergraduate researcher from my work in skyrmion logic devices.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {National Merit Scholarship}{March 2019}
+      {}{}
+      \vspace{-18px}
+      \resumeItemListStart
+        \resumeItem{Received full-ride scholarship at UT Dallas plus housing and \$28,000 in stipends}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-20 pt}
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+      
+    \resumeSubheading
+      {Undergraduate Research Assistant}{Oct 2019 -- Present}
+      {University of Texas at Dallas}{Richardson, TX}
+      \resumeItemListStart
+        \resumeItem{Harnessed the properties of magnetic materials to explore and implement beyond-CMOS technologies for Dr. Joseph Friedman’s NeuroSpinCompute laboratory}
+        %\resumeItem{Designed ultra-low dissipation reversible skyrmion logic circuits to reduce energy consumption by over two orders of magnitude}
+        \resumeItem{Designed micromagnetic skyrmion logic structures and performed Mumax3 simulations using voltage-controlled magnetic anisotropy (VCMA) for skyrmion synchronization and propagation, resulting in highly efficient and quick logic.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Hardware Engineering Intern}{May 2022 -- July 2022}
+      {Microsoft}{Raleigh, NC}
+      \resumeItemListStart
+        \resumeItem{Helped develop a custom floorplanning step by pre-placing standard cells and buffers and pre-routing trunks on high-speed critical buses to achieve flop to flop reach in several millimeters}
+        \resumeItem{Created an interpreter between Innovus and Fusion Compiler (FC) for our TCL Physical Design scripts, aiding my team's translation effort}
+        \resumeItem{Improved the efficiency of my translated floorplanning procedures for a SOC block by over 50\%}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Visiting Researcher}{Jan 2022 -- April 2022}
+      {Universidad de Salamanca}{Salamanca, Spain}
+      \resumeItemListStart
+        \resumeItem{Designed voltage-driven reversible skyrmion logic circuits to reduce energy consumption by over two orders of magnitude}
+        \resumeItem{Used parametric modeling in COMSOL to increase electrical efficiency of my micromagnetic device by 70\%}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {MRSEC Research Experience for Undergraduates}{May 2021 -- Aug 2021}
+      {University of Texas at Austin}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Fabricated, and tested WSe2-based devices for Dr. Jean Anne Incorvia’s Integrated Nano Computing lab}
+        \resumeItem{Performed tape exfoliation, electron beam lithography (EBL), atomic force microscopy (AFM), and magneto-optic Kerr effect (MOKE) imaging to fabricate and validate device structure and operation}
+        \resumeItem{Created field-effect transistors (FETs) with ambipolar behavior, demonstrating the valley-Hall effect}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Electrical Engineering Intern}{Jan 2021 -- Aug 2021}
+      {Texas Analog Center for Excellence}{Richardson, TX}
+      \resumeItemListStart
+        \resumeItem{Helped design a spin transfer torque (STT) memristor-based neuromorphic chip, collaborating with graduate students}
+        \resumeItem{Verified aspects of device's logical operation via Verilog to prepare tapeout for foundry}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+    \begin{comment}
+    \resumeSubheading
+      {High School Research Assistant}{May 2018 - August 2018}
+      {Southeastern Louisiana University}{Hammond, LA}
+      \resumeItemListStart
+        \resumeItem{Worked independently at SLEU’s Physics Lab under the supervision of Dr. David Norwood and Dr. Rhett Allain}
+        \resumeItem{Identified that the rate of polyisoprene cooling did not significantly contribute to the sigmoid behavior of its stress-strain curve}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\end{comment}
+
+%-----------Publications-----------
+\section{Journal Publications}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         1.\textbf{\hspace{3pt} B. W. Walker}, F. Garcia-Sanchez, A. J. Edwards, X. Hu, M. P. Frank, F. Garcia-Sanchez, J. S. Friedman Near-Landauer Reversible Skyrmion Logic with Voltage-Based Propagation, \textit{ArXiv Condensed Matter}, Jan 2023, \href{https://doi.org/10.48550/arXiv.2301.10700}{\textit{doi}: 10.48550/arXiv.2301.10700}
+        }}
+        \small{\item{
+         2.\hspace{3pt} X. Hu, \textbf{B. W. Walker}, F. Garcia-Sanchez, A. J. Edwards, P. Zhou, J. A. C. Incorvia, A. Paler, M. P. Frank, J. S. Friedman, Logical and Physical Reversibility of Conservative Skyrmion Logic, \textit{IEEE Magnetics Letters}, May 2022, \href{https://doi.org/10.1109/LMAG.2022.3174514}{\textit{doi}: 10.1109/LMAG.2022.3174514}
+        }}
+        \small{\item{
+         3.\textbf{\hspace{3pt} B. W. Walker}{, C. Cui, F. Garcia-Sanchez, J. A. C. Incorvia, X. Hu, and J. S. Friedman, "Skyrmion Logic Clocked via Voltage- Controlled Magnetic Anisotropy" \textit{Applied Physics Letters}, May 2021, \href{https://doi.org/10.1063/5.0049024}{\textit{doi}: 10.1063/5.0049024}}
+        }}
+     \end{itemize}
+\section{Conference Publications and Presentations}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         1.\textbf{\hspace{3pt} B. W. Walker}, F. Garcia-Sanchez, A. J. Edwards, X. Hu, M. P. Frank, F. Garcia-Sanchez, J. S. Friedman Near-Landauer Reversible Skyrmion Logic with Voltage-Based Propagation, \textit{Government Microcircuit Applications \& Critical Technology Conference}, Mar. 2023.$^{*}$
+         }}
+        \small{\item{
+         2.\hspace{3pt} X. Hu, \textbf{B. W. Walker}, F. Garcia-Sanchez, P. Zhou, J. A. C. Incorvia, A. Paler, M. P. Frank, J. S. Friedman, Logical and Physical Reversibility of Conservative Skyrmion Logic, \textit{Government Microcircuit Applications \& Critical Technology Conference}, Mar. 2022.
+         }}
+         \small{\item{
+         3.\textbf{\hspace{3pt} B. W. Walker}, B. W. Walker, C. Cui, F. Garcia-Sanchez, J. A. C. Incorvia, X. Hu, J. S. Friedman, Conservative Skyrmion Logic with Voltage-Controlled Magnetic Anisotropy Synchronization, \textit{Joint IEEE International Magnetics Conference \& Conference on Magnetism and Magnetic Materials}, Jan. 2022.$^{*}$
+        }}
+        \small{\item{
+         4.\textbf{\hspace{3pt} B. W. Walker}{, C. Cui, F. Garcia-Sanchez, J. A. C. Incorvia, X. Hu, and J. S. Friedman, Skyrmion Logic with Voltage-Controlled Magnetic Anisotropy Clocking \textit{Texas Analog Center for Excellence Symposium}, Oct. 2021}$^{*}$
+        }}
+        \small{\item{
+         5.\hspace{3pt} X. Hu, M. Chauwin, F. Garcia-Sanchez, \textbf{B. W. Walker}, N. Betrabet, J. A. C. Incorvia, A. Paler, C. Moutafis, J. S. Friedman, Skyrmion Logic System for Large-Scale Reversible Computing, \textit{IEEE International Conference on Nanotechnology}, Jul. 2021 (invited).
+        }}
+        \small{\item{
+         6.\textbf{\hspace{3pt} B. W. Walker}{, C. Cui, F. Garcia-Sanchez, J. A. C. Incorvia, X. Hu, and J. S. Friedman, "Voltage Controlled-Clocked Skyrmion Logic Synchronizers," \textit{International Conference on Nanomagnetism and Spintronics (Solitons and Skyrmion Magnetism)}, Jun. 2021}$^{*}$
+        }}
+     \end{itemize}
+     \vspace{-15pt}\hspace{400pt}$^{*}$Presented In-Person\vspace{-15pt}
+\section{Poster Presentations}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         1.\textbf{\hspace{3pt} B. W. Walker}{, A. J. Edwards, F. Garcia-Sanchez, M. P. Frank, and J. S. Friedman "Low-Dissipation Conservative Skyrmion Logic with Voltage-Based Propagation," \textit{University of Texas at Dallas Undergraduate Research Scholar Awards}, Apr. 2022}
+        }}
+        \small{\item{
+         2.\textbf{\hspace{3pt} B. W. Walker}, X. Li, and J. A. C. Incorvia, {"Fabrication and Analysis of WSe2-based Electronic Devices," \textit{MRSEC REU Poster Presentation}, Jul. 2021}
+        }}
+        \small{\item{
+         3.\textbf{\hspace{3pt} B. W. Walker}{, C. Cui, F. Garcia-Sanchez, J. A. C. Incorvia, X. Hu, and J. S. Friedman "Skyrmion Logic Clocked via Voltage-Controlled Magnetic Anisotropy," \textit{University of Texas at Dallas Undergraduate Research Scholar Awards}, Apr. 2021}
+        }}
+     \end{itemize}
+%----------------------Awards------------------
+\section{Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     %\textbf{Barry Goldwater Scholarship}{: Most prestigious scholarship for an undergraduate researcher} \hspace{53 pt}March 2022\\
+     \textbf{Undergraduate Research Scholar Award}{: Accepted for presentation at UT Dallas} \hspace{70 pt}April 2021/2022 \\
+     \textbf{TxACE Best Poster Award}{: Presented research and won against 30 graduate students} \hspace{70 pt}October 2021\\
+     \textbf{Colorado Trail Thru-Hiker}{: Hiked 500 miles from Denver to Durango, Colorado} \hspace{103 pt}August 2021\\
+     \textbf{First Place CometHack}{: Our thermostat project won first prize} \hspace{186 pt}April 2021\\
+     \textbf{National Youth Science Foundation Delegate}{: Louisiana's State Representative} \hspace{106 pt}May 2019\\
+     \textbf{Hall of Fame}{: Highest honor for my high school (analogous to valedictorian)} \hspace{138 pt}May 2019\\
+     %\textbf{National Merit Scholar}{: Winner of National Merit Scholarship Corporation’s scholarship } \hspace{66 pt}March 2019\\
+     \textbf{Eagle Scout}{: Boy Scouts of America's highest honor} \hspace{246 pt}July 2016
+    }}
+ \end{itemize}
+
+\begin{comment}
+ %------------Academic Projects------------
+\section{Academic Projects}
+\resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {\href{https://github.com/wwb00/Music-Check-in}{{Music CheckIn: A Service for Monitoring Music Activity}}}{June 2021}
+      {}{}
+      \vspace{-17px}
+      \resumeItemListStart
+        \resumeItem{Developed a web service utilizing Amazon Web Services (AWS) Lambda to monitor users' Spotify activity and notify their friends about unhealthy listening behavior (e.g. listening to the same song too much or listening to sad genres)}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {\href{https://devpost.com/software/ecostat-724lks}{{EcoStat: A Smarter and More Environmentally Friendly Thermostat}}}{April 2021}
+      {}{}
+      \vspace{-17px}
+      \resumeItemListStart
+        \resumeItem{Collaborated with team of three to develop smart thermostat using Raspberry Pi and Python that actively calculates the thermal resistance of its environment via simulation to conserve energy}
+        \resumeItem{Won first prize at CometHack 2021 and is the current thermostat for my apartment}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Simulation of Cane Toads with Parallel Processing}{March 2019}{}{}
+      \vspace{-17px}
+      \resumeItemListStart
+        \resumeItem{Using MPI for Python, created an agent-based model to simulate the dietary habits of the invasive Cane Toad}
+        \resumeItem{Identified the most efficient form of fencing to minimize ecological damage}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Organic Synthesis of Paranitraniline Red}{January 2019 - May 2019}{}{}
+      \vspace{-17px}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a team for a semester in an organic chemistry lab. Used theoretical knowledge of chemistry to pioneer an alternative approach to the standard synthesis pathway which improved yield.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages/OS}{: Python, C/C++, Bash, Unix/Linux, MATLAB, Verilog, JavaScript, LaTeX} \\
+     \textbf{Frameworks/Applications}{: AWS, Excel, Pandas, LabQuest, Mathematica, Adobe Suite, COMSOL, SolidWorks} \\
+     \textbf{EDA Tools}{: PSpice, Virtuoso, Fusion Compiler, Innovus, Allegro} \\
+     \textbf{Instrumentation}{: AFM, EBL, MOKE-imaging, IR Spec., Physics/Engineering Laboratories, Organic Synthesis}
+    }}
+ \end{itemize}
+  
+ %------------Community Involvement-----------------
+\section{Community Involvement}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IEEE - \normalfont Head Tutor for Digital Circuits }{August 2020 -- Present}
+      {University of Texas at Dallas}{}
+      \resumeItemListStart
+        \resumeItem{Tutors students in a variety of electrical engineering courses for 4+ hours per week}
+        \resumeItem{Collaborates with professors and hosts review sessions prior to each test}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Society of Physics Students - \normalfont Secretary}{August 2020 -- Present}
+      {University of Texas at Dallas}{}
+      \resumeItemListStart
+        \resumeItem{Takes notes and helps run a variety of social and professional events for our SPS chapter}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Outdoors Club - \normalfont President}{January 2018 - May 2019}
+      {LSMSA}{}
+      \resumeItemListStart
+        \resumeItem{Founded and ran the Outdoors Club which organized bimonthly hiking and kayaking trips.}
+      \resumeItemListEnd
+     \resumeSubheading
+      {Student Success Center - \normalfont Academic Peer Mentor}{August 2017 – May 2019}
+      {LSMSA}{}
+      \resumeItemListStart
+        \resumeItem{Tutored students in mathematics, chemistry, physics, and computer science courses for 3 hours per week}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%------------------Relevant Coursework-------------------------
+\section{Relevant Coursework}
+\textbf{University of Texas at Dallas}
+\vspace{-10pt}
+\begin{multicols}{3}
+Condensed Matter Physics (A+)\\
+Quantum Mechanics I/II (A-/A)\\
+Classical Mechanics (A+)\\
+Optics (B+) \\
+Thermo / Statistical Mechanics (A)\\
+Numerical Methods (A+)\\
+Nanoscience I/II (A/A-)\\
+Contemporary Physics (A+)\\
+\columnbreak
+Analog / Integrated Circuits (IP) \\
+Electronic Circuits (A)\\
+Electromagnetic Engineering (A+)\\
+Electronic Devices (A)\\
+Electrical Network Analysis (A+)\\
+Signals and Systems (A+)\\
+Digital Circuits (A+)\\
+Digital Systems (A+)\\
+\columnbreak
+Embedded Systems (IP) \\
+Quantum Computing (A)\\
+Modern Physics (A-)\\
+Systems and Controls (A)\\
+Differential Equations (A) \\
+Theoretical Physics (A-)\\
+Advanced Engineering Math (CR)\\
+Linear Algebra (A)\\
+\end{multicols}
+\vspace{-5pt}
+\textbf{Northwestern State University}
+\vspace{-10pt}
+\begin{multicols}{3}
+Comparative Neurobiology (B)\\
+Calculus of Complex Variables (A)\\
+\columnbreak
+Certified Ethical Hacking (A)\\
+Network Design/Hardware (A)\\
+\columnbreak
+Multivariable Calculus (A)\\
+Theory of Probability (A)\\
+\end{multicols}
+\vspace{-5pt}
+\textbf{Louisiana School for Math, Science, and the Arts}
+\vspace{-10pt}
+\begin{multicols}{3}
+Ind. Study Tensor Analysis (A)\\
+Electrodynamics (A)\\
+Inorganic Chemistry I (A)\\
+Quantum Mechanics I (A)\\
+Modern Physics/Lab (A)\\
+Intro Physics I/II/Lab (A)\\
+\columnbreak
+Mathematical Physics (A)\\
+Graph Theory (A)\\
+Chaos Theory (A)\\
+Differential Equations (A)\\
+Calculus I/II/III (A)\\
+Computer Science I (A)\\
+\columnbreak
+Organic Chemistry I/II/Lab (A)\\
+Biochemistry (A)\\
+Thermochemistry (A)\\
+Intro Chemistry I/II/Lab (A)\\
+Mathematical Modeling (A)\\
+Data Analysis \& Visualization (A)\\
+\end{multicols}
+\end{comment}
+\end{document}
+
