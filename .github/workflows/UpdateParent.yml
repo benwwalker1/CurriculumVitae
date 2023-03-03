@@ -14,6 +14,8 @@ jobs:
         with: 
           repository: benwwalker1/benjamin-walker.com
           token: ${{ secrets.UPDATE_CV }}
+          submodules: true
+          
 
       - name: Pull & update submodules recursively
         run: |
