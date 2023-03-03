@@ -1,7 +1,7 @@
 # File: .github/workflows/shot.yml
 name: build_canceller
 on:
-  pull_request:
+  workflow_dispatch:
 jobs:
   build_canceller:
     runs-on: ubuntu-latest
